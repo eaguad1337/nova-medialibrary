@@ -1,0 +1,38 @@
+{
+    "name": "eaguad1337/nova-medialibrary",
+    "description": "Laravel Nova tools for managing the Spatie media library.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0",
+        "laravel/nova": "^4.0",
+        "spatie/laravel-medialibrary": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "E1337\\AdvancedNovaMediaLibrary\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "E1337\\AdvancedNovaMediaLibrary\\AdvancedNovaMediaLibraryServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
